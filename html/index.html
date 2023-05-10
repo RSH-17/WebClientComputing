@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+    <div id="search_box">
+        <form action="http://127.0.0.1:52271/search" method="post">
+            <input type="text" name="search" id="search">
+            <input type="submit" value="검색">
+        </form>
+    </div>
+
+    <div id="hotcontents_box">
+        <p>Hot</p>
+        <HR COLOR=“#FF0000” WIDTH=“100%” SIZE=“10” NOSHADE ALIGN=“LEFT”>
+    </div>
+
+    <div id="contents_box">
+        <p>Contents</p>
+        <HR COLOR=“#FF0000” WIDTH=“100%” SIZE=“10” NOSHADE ALIGN=“LEFT”>
+        <form action="http://127.0.0.1:52271/contents" method="get">
+            <input type="submit" value="글 보기">
+        </form>
+    </div>
+
+    <div id="user_box">
+        <p>User</p>
+        <HR COLOR=“#FF0000” WIDTH=“100%” SIZE=“10” NOSHADE ALIGN=“LEFT”>
+        <form action="http://127.0.0.1:52271/post" method="post">
+            <input type="text" name="user" id="user"> </br>
+            <input type="submit" value="post">
+        </form>
+    </div>
+
+    <script src="../js/index.js"></script>
+</body>
+
+</html>

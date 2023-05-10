@@ -1,0 +1,16 @@
+* {
+    width: 100%;
+}
+
+[name = 'title'] {
+    width: 300px;
+}
+
+[name = 'content'] {
+    height: 500px;
+    width: 70%;
+}
+
+[type = 'submit'] {
+    width: 100px;
+}

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div {
+    outline: solid 1px black;
+}
+
+#search_box {
+    height: 200px;
+
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+    background-color: rgb(153, 217, 234);
+}
+
+#search_box form {
+    width: 70%;
+
+    position: absolute;
+    top: 40%;
+    text-align: center;
+}
+
+#search_box [id = "search"] {
+    width: 60%;
+    height: 30px;
+}
+
+#search_box [value = "검색"] {
+    width: 70px;
+    height: 30px;
+}
+
+#hotcontents_box {
+    display:inline-block;
+    float:left;
+
+    width:20%;
+    height:100vh;
+
+    text-align:center;
+}
+
+#contents_box {
+    display:inline-block;
+    float:center;
+
+    width:60%;
+    height:100vh;
+
+    text-align:center;
+}
+
+#user_box {
+    display:inline-block;
+    float:right;
+
+    width:20%;
+    height:100vh;
+
+    text-align:center;
+}
